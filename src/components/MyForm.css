@@ -29,6 +29,11 @@ textarea {
   border-radius: 3px;
 }
 
+input:invalid,
+textarea:invalid {
+  border: 2px solid red;
+}
+
 textarea {
   min-height: 200px;
 }
